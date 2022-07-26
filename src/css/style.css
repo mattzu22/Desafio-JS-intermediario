@@ -1,0 +1,94 @@
+html{
+    font-size: 62.5%;
+    color: white;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../image/bg-repeat.jpg) center;
+    background-size: contain;
+}
+
+.container-form{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.container-form .duvida{
+    max-width: 430px;
+}
+
+.container-form .duvida .titulo{
+    font-size: 3rem;
+}
+
+.container-form .duvida p{
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 11px;
+}
+
+.container-form .formulario{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 15px;
+}
+
+.container-form .formulario .input{
+    width: 340px;
+    max-width: 340px;
+    padding: 9px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-form .formulario p{
+    color: black;
+    margin-top: -7px;
+    margin-left: -5px;
+    font-size: 1.5rem;
+}
+
+.container-form .formulario .btn {
+    background-color: #3CCC87;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.container-form .formulario .mensagem{
+    color: #F52E2E;
+    font-size: 0.9rem;
+    margin-top: -15px;
+    display: none;
+}
+
+.container-form .formulario .input.valido{
+    border: 1px solid #00C22B;
+}
+
+.container-form .formulario .input.invalido{
+    border: 1px solid #F52E2E;
+}
+
+.container-form .formulario .mensagem.invalido{
+    display: block;
+}
+
+
+
