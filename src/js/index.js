@@ -1,7 +1,7 @@
 
 const inputs = document.querySelectorAll(".input")       
 
-document.getElementById('form').addEventListener('submit', (event) => {
+document.getElementById('formulario').addEventListener('submit', (event) => {
     event.preventDefault()
 
     inputs.forEach(input => {
@@ -17,7 +17,7 @@ document.getElementById('form').addEventListener('submit', (event) => {
 
 inputs.forEach(input => {
 
-    input.addEventListener('change', function valido(){
+    input.addEventListener('input', function valido(){
 
         if(input.value != ''){
             input.classList.add('valido')

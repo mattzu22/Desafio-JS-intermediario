@@ -44,7 +44,6 @@ body{
 
 .container-form .formulario .input{
     width: 340px;
-    max-width: 340px;
     padding: 9px;
     border: 1px solid #000000;
     border-radius: 5px;
